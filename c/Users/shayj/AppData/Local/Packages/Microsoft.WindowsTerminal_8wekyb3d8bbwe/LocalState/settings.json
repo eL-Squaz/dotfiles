@@ -1,0 +1,163 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+
+    "requestedTheme": "system",
+
+    "multiLinePasteWarning": false,
+
+    "profiles":
+    {
+        "defaults": 
+        {
+            "fontFace": "SauceCodePro Nerd Font",
+            "fontSize": 12,
+            "fontWeight": "medium"
+        },
+        "list": 
+        [
+            {
+                "acrylicOpacity": 0.77000000000000002,
+                "colorScheme": "Vintage",
+                "commandline": "powershell.exe",
+                "experimental.retroTerminalEffect": false,
+                "fontWeight": "medium",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "useAcrylic": true
+            },
+            {
+                "colorScheme": "Vintage",
+                "commandline": "cmd.exe",
+                "fontWeight": "medium",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "acrylicOpacity": 0.77000000000000002,
+                "colorScheme": "Vintage",
+                "commandline": "C:\\Users\\shayj\\Downloads\\PowerShell-7.1.4-win-x64\\pwsh.exe",
+                "cursorHeight": 20,
+                "cursorShape": "vintage",
+                "fontWeight": "medium",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "icon": "C:\\Users\\shayj\\Downloads\\PowerShell-7.1.4-win-x64\\assets\\Square150x150Logo.png",
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "acrylicOpacity": 0.77000000000000002,
+                "commandline": "C:\\Program Files\\Git\\git-cmd.exe",
+                "cursorShape": "vintage",
+                "fontWeight": "medium",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git",
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
+            },
+            {
+                "colorScheme": "Tango Dark",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{7f586916-8357-53d4-bb2b-ca96f639898a}",
+                "hidden": false,
+                "name": "Pengwin",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "hidden": false,
+                "name": "Ubuntu-18.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "closeOnExit": "never",
+                "commandline": "C:\\Users\\shayj\\anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate '",
+                "icon": "C:\\Users\\shayj\\wslu\\utilities-terminal.ico",
+                "name": "Anaconda(Powershell)",
+                "startingDirectory": null,
+                "tabTitle": "Anaconda3(PS)"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+          "name": "Gruvbox Dark",
+          "background": "#282828",
+          "foreground": "#ebdbb2",
+          "black": "#282828",
+          "blue": "#458588",
+          "cyan": "#689d6a",
+          "green": "#98971a",
+          "purple" : "#b16286",
+          "red": "#cc241d",
+          "white": "#a89984",
+          "yellow": "#d79921",
+          "brightBlack": "#928374",
+          "brightBlue": "#83a598",
+          "brightCyan": "#8ec07c",
+          "brightGreen": "#b8bb26",
+          "brightPurple": "#d3869b",
+          "brightRed": "#fb4934",
+          "brightWhite": "#ebdbb2",
+          "brightYellow": "#fabd2f"
+        },
+        {
+          "name": "Gruvbox Light",
+          "background": "#f9f5d7",
+          "foreground": "#282828",
+          "black": "#fbf1c7",
+          "blue": "#076678",
+          "cyan": "#427b58",
+          "green": "#79740e",
+          "purple": "#8f3f71",
+          "red": "#9d0006",
+          "white": "#3c3836",
+          "yellow": "#b57614",
+          "brightBlack": "#9d8374",
+          "brightBlue": "#458588",
+          "brightCyan": "#689d69",
+          "brightGreen": "#98971a",
+          "brightPurple": "#b16186",
+          "brightRed": "#cc241d",
+          "brightWhite": "#7c6f64",
+          "brightYellow": "#d79921"
+        }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": [
+      { "command": "unbound", "keys": "alt+down" },
+      { "command": "unbound", "keys": "alt+left" },
+      { "command": "unbound", "keys": "alt+right" },
+      { "command": "unbound", "keys": "alt+up" }
+    ]
+}
